@@ -13,8 +13,8 @@ Rubyの動かせる環境
 
 ## Install
 ```sh
-git clone url
-cd url
+git clone https://github.com/thr3a/loginpack-sinatra.git
+cd loginpack-sinatra
 bundle install --path vendor/bundle
 ```
 app.rb内のCONSUMER_KEYとCONSUMER_SECRETを記述する
@@ -24,3 +24,4 @@ bundle exec ruby app.rb  -o 0.0.0.0
 ## Tips
 
 - [公式サイト](http://sinatra.ruby.iijgio.com/p/middleware/twitter_authentication_with_omniauth)が元
+- 認証時に得られる```env['omniauth.auth']```の内容は[以下](https://github.com/arunagw/omniauth-twitter#authentication-hash)
