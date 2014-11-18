@@ -5,8 +5,8 @@ Bundler.require
 set :environment, :development
 #set :environment, :production
 
-CKEY = '1uAH8P1AbyBg1wdKQ3BVDXdKe'
-CSEC = 'q9YpP6yt7vIMEhed0NFnk63ZwtJPTwoysrItyNZUtFr7HQN7ov'
+CKEY = ''
+CSEC = ''
 
 configure :development do
 	set :server, 'webrick'
