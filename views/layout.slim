@@ -1,7 +1,12 @@
 doctype html
 html
 	head
-		title Twitter Oauth App
+	meta charset="utf-8"
+	meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1"
+	title Twitter Oauth App
+	link href="//maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css" rel="stylesheet"
+	== css :application
+	== js :application
 	body
-		h1 Twitter Oauth App
-		== yield
+		.container
+			== yield
